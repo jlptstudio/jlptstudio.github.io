@@ -1,0 +1,198 @@
+/* ===== RESET & BASE ===== */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	/* Pastel palette */
+	--lavender-50: #f5f3ff;
+	--lavender-100: #ede9fe;
+	--lavender-200: #ddd6fe;
+	--lavender-300: #c4b5fd;
+	--lavender-400: #a78bfa;
+	--lavender-500: #8b5cf6;
+
+	--mint-50: #f0fdf4;
+	--mint-100: #dcfce7;
+	--mint-200: #bbf7d0;
+	--mint-300: #86efac;
+	--mint-400: #4ade80;
+
+	--peach-50: #fff7ed;
+	--peach-100: #ffedd5;
+	--peach-200: #fed7aa;
+	--peach-300: #fdba74;
+	--peach-400: #fb923c;
+
+	--coral-400: #fb7185;
+	--coral-500: #f43f5e;
+
+	--sky-50: #f0f9ff;
+	--sky-100: #e0f2fe;
+	--sky-200: #bae6fd;
+
+	/* Neutrals */
+	--gray-50: #fafafa;
+	--gray-100: #f5f5f5;
+	--gray-200: #e5e5e5;
+	--gray-300: #d4d4d4;
+	--gray-400: #a3a3a3;
+	--gray-500: #737373;
+	--gray-600: #525252;
+	--gray-700: #404040;
+	--gray-800: #262626;
+	--gray-900: #171717;
+
+	/* Semantic */
+	--bg-primary: #fefcff;
+	--bg-section-alt: var(--lavender-50);
+	--text-primary: var(--gray-800);
+	--text-secondary: var(--gray-500);
+	--accent: var(--lavender-500);
+	--accent-light: var(--lavender-300);
+
+	/* Typography */
+	--font-body: 'Inter', system-ui, -apple-system, sans-serif;
+	--font-heading: 'Outfit', system-ui, -apple-system, sans-serif;
+
+	/* Sizing */
+	--max-width: 1200px;
+	--section-padding: 6rem 1.5rem;
+	--radius: 1rem;
+	--radius-sm: 0.5rem;
+
+	/* Shadows */
+	--shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+	--shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+	--shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+	--shadow-xl: 0 20px 50px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+}
+
+html {
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: var(--font-body);
+	color: var(--text-primary);
+	background: var(--bg-primary);
+	line-height: 1.6;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-heading);
+	line-height: 1.2;
+	color: var(--gray-900);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+button {
+	cursor: pointer;
+	font-family: var(--font-body);
+	border: none;
+	outline: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+/* ===== UTILITIES ===== */
+.container {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+.section-title {
+	font-size: clamp(2rem, 4vw, 2.75rem);
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.section-subtitle {
+	font-size: 1.125rem;
+	color: var(--text-secondary);
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto 3rem;
+	line-height: 1.7;
+}
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	padding: 0.875rem 2rem;
+	border-radius: 50px;
+	font-weight: 600;
+	font-size: 1rem;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	white-space: nowrap;
+}
+
+.btn-primary {
+	background: linear-gradient(135deg, var(--lavender-400), var(--lavender-500));
+	color: white;
+	box-shadow: 0 4px 15px rgba(139, 92, 246, 0.35);
+}
+
+.btn-primary:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 20px rgba(139, 92, 246, 0.45);
+}
+
+.btn-secondary {
+	background: white;
+	color: var(--lavender-500);
+	border: 2px solid var(--lavender-200);
+}
+
+.btn-secondary:hover {
+	background: var(--lavender-50);
+	border-color: var(--lavender-300);
+	transform: translateY(-2px);
+}
+
+/* ===== SCROLL REVEAL ===== */
+.reveal {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1), transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+	:root {
+		--section-padding: 4rem 1rem;
+	}
+}
