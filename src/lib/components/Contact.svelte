@@ -9,7 +9,7 @@
 		const data = new FormData(form);
 
 		try {
-			const res = await fetch('https://formsubmit.co/ajax/contact@jlptstudio.com', {
+			const res = await fetch('https://formsubmit.co/ajax/mail@jlpt.studio', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
 				body: JSON.stringify(Object.fromEntries(data))
@@ -22,7 +22,7 @@
 			const name = data.get('name');
 			const email = data.get('email');
 			const message = data.get('message');
-			window.location.href = `mailto:contact@jlptstudio.com?subject=Contact from ${name}&body=${message}%0A%0AFrom: ${name} <${email}>`;
+			window.location.href = `mailto:mail@jlpt.studio?subject=Contact from ${name}&body=${message}%0A%0AFrom: ${name} <${email}>`;
 		} finally {
 			submitting = false;
 		}
@@ -87,7 +87,7 @@
 				<div class="info-card">
 					<div class="info-icon">📧</div>
 					<h4>Email Us</h4>
-					<a href="mailto:contact@jlptstudio.com">contact@jlptstudio.com</a>
+					<a href="mailto:mail@jlpt.studio">mail@jlpt.studio</a>
 				</div>
 				<div class="info-card">
 					<div class="info-icon">💬</div>
