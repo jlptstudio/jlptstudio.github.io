@@ -7,6 +7,7 @@
 	import Testimonials from '$lib/components/Testimonials.svelte';
 	import Pricing from '$lib/components/Pricing.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
+	import Contact from '$lib/components/Contact.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
@@ -23,4 +24,5 @@
 <Testimonials />
 <Pricing />
 <FAQ />
+<Contact />
 <Footer />
