@@ -3,7 +3,7 @@
 		{
 			icon: '📝',
 			title: 'JLPT Practice Exams',
-			description: '100 realistic full-length exams, auto-graded with detailed answer explanations. Only $1 per exam — invaluable preparation for all levels.',
+			description: '100 realistic full-length exams, auto-graded with detailed answer explanations. Invaluable preparation designed by JLPT experts for all levels.',
 			color: 'var(--lavender-100)',
 			accent: 'var(--lavender-400)'
 		},

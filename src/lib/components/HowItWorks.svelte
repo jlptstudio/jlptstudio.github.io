@@ -8,9 +8,9 @@
 		<div class="steps">
 			<div class="step reveal reveal-delay-1">
 				<div class="step-number">1</div>
-				<div class="step-icon">🎯</div>
-				<h3>Choose Your Level</h3>
-				<p>Pick your target JLPT level — N5 through N1. Every app is organized by level so you study exactly what you need.</p>
+				<div class="step-icon">📱</div>
+				<h3>Download the Apps</h3>
+				<p>Get the apps you need from the App Store. Each one focuses on a key skill: kanji, vocabulary, grammar, reading, or practice exams.</p>
 			</div>
 
 			<div class="step-connector reveal reveal-delay-2">
@@ -21,9 +21,9 @@
 
 			<div class="step reveal reveal-delay-2">
 				<div class="step-number">2</div>
-				<div class="step-icon">📱</div>
-				<h3>Download the Apps</h3>
-				<p>Get the apps you need from the App Store. Each one focuses on a key skill: kanji, vocabulary, grammar, reading, or practice exams.</p>
+				<div class="step-icon">🎯</div>
+				<h3>Choose Your Level</h3>
+				<p>Each app covers all JLPT levels — N5 through N1. Pick your target level within the app and study exactly what you need.</p>
 			</div>
 
 			<div class="step-connector reveal reveal-delay-3">

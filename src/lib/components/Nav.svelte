@@ -9,7 +9,7 @@
 		{ href: '#how-it-works', label: 'How It Works' },
 		{ href: '#levels', label: 'Levels' },
 		{ href: '#testimonials', label: 'Testimonials' },
-		{ href: '#pricing', label: 'Pricing' },
+		{ href: '#levels', label: 'Levels' },
 		{ href: '#faq', label: 'FAQ' }
 	];
 

@@ -65,7 +65,7 @@
 						<label for="subject">Subject</label>
 						<select id="subject" name="subject">
 							<option value="general">General Inquiry</option>
-							<option value="pricing">Pricing & Apps</option>
+							<option value="apps">Apps & Features</option>
 							<option value="technical">Technical Support</option>
 							<option value="partnership">Partnership</option>
 						</select>

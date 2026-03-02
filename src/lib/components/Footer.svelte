@@ -45,7 +45,7 @@
 			<div class="footer-col">
 				<h4>Resources</h4>
 				<a href="#levels">JLPT Levels</a>
-				<a href="#pricing">Pricing</a>
+				<a href="#levels">Levels</a>
 				<a href="#faq">FAQ</a>
 				<a href="#contact">Contact</a>
 			</div>

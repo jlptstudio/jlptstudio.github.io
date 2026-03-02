@@ -10,7 +10,7 @@
 		},
 		{
 			question: 'How much do the apps cost?',
-			answer: 'Each app is $100/year, but for a limited time all apps are half price at $50/year each. The JLPT Practice Exams app includes 100 full-length exams — that\'s only $1 per exam. The discounted subscriptions are limited in supply and will return to full price once they sell out.'
+			answer: 'Pricing is available on the App Store. Each app offers an annual subscription — check the individual app listings for current pricing and any available promotions.'
 		},
 		{
 			question: 'Do the apps work offline?',
