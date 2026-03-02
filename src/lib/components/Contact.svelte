@@ -34,7 +34,7 @@
 		<div class="section-header reveal">
 			<span class="section-badge">✉️ Get in Touch</span>
 			<h2>Questions? We'd Love to Help</h2>
-			<p class="section-desc">Whether you have questions about our courses, need study advice, or want to learn more about JLPT Studio — we're here for you.</p>
+			<p class="section-desc">Whether you have questions about our apps, need study advice, or want to learn more about JLPT Studio — we're here for you.</p>
 		</div>
 
 		<div class="contact-grid reveal">
@@ -65,7 +65,7 @@
 						<label for="subject">Subject</label>
 						<select id="subject" name="subject">
 							<option value="general">General Inquiry</option>
-							<option value="pricing">Pricing & Plans</option>
+							<option value="pricing">Pricing & Apps</option>
 							<option value="technical">Technical Support</option>
 							<option value="partnership">Partnership</option>
 						</select>

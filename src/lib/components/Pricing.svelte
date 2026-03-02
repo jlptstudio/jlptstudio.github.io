@@ -1,74 +1,117 @@
 <script lang="ts">
 	const plans = [
 		{
-			name: 'Monthly',
-			price: '$30',
-			period: '/month',
-			description: 'Flexible month-to-month access',
-			badge: '',
-			features: [
-				'All JLPT levels (N5–N1)',
-				'Full kanji & vocabulary library',
-				'Spaced repetition system',
-				'Grammar lessons & exercises',
-				'Simulated practice exams',
-				'Progress tracking dashboard'
-			],
-			cta: 'Start Monthly',
-			featured: false,
-			note: 'Cancel anytime'
-		},
-		{
-			name: 'Annual',
-			price: '$200',
+			name: 'JLPT Practice Exams',
+			price: '$50',
 			period: '/year',
-			description: 'Best value for serious learners',
-			badge: 'RECOMMENDED',
+			description: '100 full-length exams — only $1 per exam',
+			badge: 'HALF PRICE',
 			features: [
-				'Everything in Monthly',
-				'Save $160 per year',
-				'Priority new features',
-				'Offline study mode',
-				'Advanced analytics',
-				'Email support'
+				'100 realistic full-length exams',
+				'Auto-graded with explanations',
+				'All JLPT levels (N5–N1)',
+				'Designed by JLPT experts',
+				'Detailed score breakdowns',
+				'Only $1 per exam'
 			],
-			cta: 'Start Annual Plan',
+			cta: 'Download',
 			featured: true,
-			note: 'Just $16.67/month'
+			note: '$100/year — 50% off for a limited time',
+			strikePrice: '$100'
 		},
 		{
-			name: 'Lifetime',
-			price: '$500',
-			period: 'one-time',
-			description: 'Pay once, learn forever',
-			badge: 'LIMITED TIME',
+			name: 'JLPT Kanji Master',
+			price: '$50',
+			period: '/year',
+			description: 'SRS-based kanji learning by JLPT level',
+			badge: 'HALF PRICE',
 			features: [
-				'Everything in Annual',
-				'All future content updates',
-				'All future feature releases',
-				'Community Discord access',
-				'Priority support',
-				'Founding member badge'
+				'All kanji for every JLPT level',
+				'Spaced repetition system',
+				'Practice quizzes',
+				'Stroke order animations',
+				'Mnemonic aids',
+				'Progress tracking'
 			],
-			cta: 'Get Lifetime Access',
+			cta: 'Download',
 			featured: false,
-			note: 'Never pay again'
+			note: '$100/year — 50% off for a limited time',
+			strikePrice: '$100'
+		},
+		{
+			name: 'JLPT Vocabulary',
+			price: '$50',
+			period: '/year',
+			description: 'Comprehensive vocab by JLPT level',
+			badge: 'HALF PRICE',
+			features: [
+				'Vocabulary for all JLPT levels',
+				'Spaced repetition system',
+				'Practice quizzes',
+				'Example sentences',
+				'Audio pronunciation',
+				'Progress tracking'
+			],
+			cta: 'Download',
+			featured: false,
+			note: '$100/year — 50% off for a limited time',
+			strikePrice: '$100'
+		}
+	];
+
+	const morePlans = [
+		{
+			name: 'JLPT Grammar',
+			price: '$50',
+			period: '/year',
+			description: 'Complete grammar reference & practice',
+			badge: 'HALF PRICE',
+			features: [
+				'All grammar points by JLPT level',
+				'Clear explanations & examples',
+				'Interactive exercises',
+				'Pattern recognition drills',
+				'Progress tracking'
+			],
+			cta: 'Download',
+			featured: false,
+			note: '$100/year — 50% off for a limited time',
+			strikePrice: '$100'
+		},
+		{
+			name: 'JLPT Reading Practice',
+			price: '$50',
+			period: '/year',
+			description: 'Reading comprehension by JLPT level',
+			badge: 'HALF PRICE',
+			features: [
+				'Passages at every JLPT level',
+				'Comprehension questions',
+				'Timed reading practice',
+				'Vocabulary highlights',
+				'Progress tracking'
+			],
+			cta: 'Download',
+			featured: false,
+			note: '$100/year — 50% off for a limited time',
+			strikePrice: '$100'
 		}
 	];
 </script>
 
 <section class="pricing" id="pricing">
 	<div class="container">
+		<div class="sale-banner reveal">LIMITED TIME: All apps half price — $50/year each instead of $100!</div>
 		<h2 class="section-title reveal">Simple, Transparent Pricing</h2>
 		<p class="section-subtitle reveal reveal-delay-1">
-			Start free, then pick the plan that matches your commitment. All plans include a 7-day free trial.
+			Each app is available separately so you can choose exactly what you need. Limited supply of discounted subscriptions available.
 		</p>
 
 		<div class="pricing-grid">
 			{#each plans as plan, i}
 				<div class="pricing-card reveal reveal-delay-{i + 1}" class:featured={plan.featured}>
 					{#if plan.badge}
-						<div class="pricing-badge" class:limited={plan.badge === 'LIMITED TIME'}>
+						<div class="pricing-badge limited">
 							{plan.badge}
 						</div>
 					{/if}
@@ -77,6 +120,9 @@
 					<p class="pricing-desc">{plan.description}</p>
 
 					<div class="pricing-amount">
+						{#if plan.strikePrice}
+							<span class="strike-price">{plan.strikePrice}</span>
+						{/if}
 						<span class="price">{plan.price}</span>
 						<span class="period">{plan.period}</span>
 					</div>
@@ -92,9 +138,47 @@
 						{/each}
 					</ul>
 
-					<button class="btn {plan.featured ? 'btn-primary' : 'btn-secondary'} btn-full">
+					<a href="#" class="btn {plan.featured ? 'btn-primary' : 'btn-secondary'} btn-full">
 						{plan.cta}
-					</button>
+					</a>
+				</div>
+			{/each}
+		</div>
+
+		<div class="pricing-grid pricing-grid-2">
+			{#each morePlans as plan, i}
+				<div class="pricing-card reveal reveal-delay-{i + 1}" class:featured={plan.featured}>
+					{#if plan.badge}
+						<div class="pricing-badge limited">
+							{plan.badge}
+						</div>
+					{/if}
+
+					<h3>{plan.name}</h3>
+					<p class="pricing-desc">{plan.description}</p>
+
+					<div class="pricing-amount">
+						{#if plan.strikePrice}
+							<span class="strike-price">{plan.strikePrice}</span>
+						{/if}
+						<span class="price">{plan.price}</span>
+						<span class="period">{plan.period}</span>
+					</div>
+
+					<p class="pricing-note">{plan.note}</p>
+
+					<ul class="pricing-features">
+						{#each plan.features as feature}
+							<li>
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--mint-400)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+								{feature}
+							</li>
+						{/each}
+					</ul>
+
+					<a href="#" class="btn btn-secondary btn-full">
+						{plan.cta}
+					</a>
 				</div>
 			{/each}
 		</div>
@@ -218,8 +302,39 @@
 		width: 100%;
 	}
 
+	.sale-banner {
+		text-align: center;
+		padding: 1rem 2rem;
+		background: linear-gradient(135deg, var(--peach-300), var(--coral-400));
+		color: white;
+		font-weight: 700;
+		font-size: 1.1rem;
+		border-radius: var(--radius);
+		margin-bottom: 2rem;
+	}
+
+	.strike-price {
+		font-family: var(--font-heading);
+		font-size: 1.5rem;
+		font-weight: 500;
+		color: var(--gray-400);
+		text-decoration: line-through;
+		margin-right: 0.25rem;
+	}
+
+	.pricing-grid-2 {
+		grid-template-columns: repeat(2, 1fr);
+		max-width: 660px;
+		margin-top: 1.5rem;
+	}
+
 	@media (max-width: 768px) {
 		.pricing-grid {
+			grid-template-columns: 1fr;
+			max-width: 400px;
+		}
+
+		.pricing-grid-2 {
 			grid-template-columns: 1fr;
 			max-width: 400px;
 		}

@@ -24,7 +24,7 @@
 	<div class="hero-content container">
 		<div class="hero-badge reveal">
 			<span class="badge-dot"></span>
-			Trusted by 50,000+ learners worldwide
+			Now available on the App Store
 		</div>
 
 		<h1 class="hero-title reveal reveal-delay-1">
@@ -33,32 +33,32 @@
 		</h1>
 
 		<p class="hero-subtitle reveal reveal-delay-2">
-			The smart way to prepare for the Japanese Language Proficiency Test.
-			Powered by scientifically-backed spaced repetition, so you remember what you learn — forever.
+			Five specialized iOS apps designed to help you conquer every section of the Japanese Language Proficiency Test.
+			Kanji, vocabulary, grammar, reading, and full practice exams — all in your pocket.
 		</p>
 
 		<div class="hero-buttons reveal reveal-delay-3">
-			<a href="#pricing" class="btn btn-primary btn-lg">
-				Start Learning Free
+			<a href="#" class="btn btn-primary btn-lg">
+				Download on App Store
 				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 			</a>
-			<a href="#pricing" class="btn btn-secondary">View Pricing</a>
+			<a href="#apps" class="btn btn-secondary">View Apps</a>
 		</div>
 
 		<div class="hero-stats reveal reveal-delay-4">
 			<div class="stat">
-				<span class="stat-number">50K+</span>
-				<span class="stat-label">Active Learners</span>
+				<span class="stat-number">5</span>
+				<span class="stat-label">Specialized Apps</span>
 			</div>
 			<div class="stat-divider"></div>
 			<div class="stat">
-				<span class="stat-number">8,000+</span>
-				<span class="stat-label">Kanji & Vocab</span>
+				<span class="stat-number">100</span>
+				<span class="stat-label">Practice Exams</span>
 			</div>
 			<div class="stat-divider"></div>
 			<div class="stat">
-				<span class="stat-number">92%</span>
-				<span class="stat-label">Pass Rate</span>
+				<span class="stat-number">N5–N1</span>
+				<span class="stat-label">All JLPT Levels</span>
 			</div>
 		</div>
 	</div>

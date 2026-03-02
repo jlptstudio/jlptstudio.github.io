@@ -3,36 +3,36 @@
 		{
 			name: 'Sarah Chen',
 			level: 'Passed N2',
-			duration: '14 months of study',
-			text: 'JLPT Studio completely changed how I study Japanese. The spaced repetition system meant I actually remembered what I learned instead of cramming and forgetting. Passed N2 on my first attempt!',
+			duration: 'Kanji Master & Vocab apps',
+			text: 'The Kanji Master app completely changed how I study. The spaced repetition system meant I actually remembered what I learned instead of cramming and forgetting. Passed N2 on my first attempt!',
 			avatar: 'SC'
 		},
 		{
 			name: 'Marcus Webb',
 			level: 'Passed N3',
-			duration: '8 months of study',
-			text: 'The simulated exams were a game-changer. By the time I sat for N3, the real test felt familiar. The detailed explanations for every answer helped me understand my weak points.',
+			duration: 'Practice Exams app',
+			text: 'The Practice Exams app was a game-changer. By the time I sat for N3, the real test felt familiar. 100 exams with detailed explanations for every answer helped me understand my weak points.',
 			avatar: 'MW'
 		},
 		{
 			name: 'Yuki Tanaka',
 			level: 'Passed N1',
-			duration: '2 years of study',
-			text: 'As a heritage speaker, I could speak but struggled with reading and grammar. JLPT Studio\'s kanji mnemonics and grammar breakdowns filled in the gaps. Finally passed N1!',
+			duration: 'All 5 apps',
+			text: 'As a heritage speaker, I could speak but struggled with reading and grammar. The Kanji Master and Grammar apps filled in the gaps perfectly. Finally passed N1!',
 			avatar: 'YT'
 		},
 		{
 			name: 'David Kim',
 			level: 'Passed N4',
-			duration: '6 months of study',
-			text: 'I tried three other apps before finding JLPT Studio. The difference is how everything connects — vocabulary feeds into grammar, which shows up in the practice tests. It just clicks.',
+			duration: 'Vocabulary & Grammar apps',
+			text: 'I tried three other apps before finding JLPT Studio. The difference is how the apps work together — vocabulary feeds into grammar, which shows up in the practice exams. It just clicks.',
 			avatar: 'DK'
 		},
 		{
 			name: 'Emily Rodriguez',
 			level: 'Passed N2',
-			duration: '18 months of study',
-			text: 'The vocabulary builder with example sentences is incredible. Learning words in context made them stick so much better than flashcard-only apps. Worth every penny of the annual plan.',
+			duration: 'Vocabulary & Reading apps',
+			text: 'The Vocabulary app with example sentences is incredible. Pairing it with the Reading Practice app made everything stick so much better than flashcard-only apps. Worth every penny.',
 			avatar: 'ER'
 		}
 	];
@@ -50,7 +50,7 @@
 	<div class="container">
 		<h2 class="section-title reveal">Loved by Learners</h2>
 		<p class="section-subtitle reveal reveal-delay-1">
-			Join thousands of students who've passed the JLPT with our platform.
+			Join thousands of students who've passed the JLPT with our apps.
 		</p>
 
 		<div class="testimonials-grid">

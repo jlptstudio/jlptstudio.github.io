@@ -2,15 +2,15 @@
 	<div class="container">
 		<h2 class="section-title reveal">How It Works</h2>
 		<p class="section-subtitle reveal reveal-delay-1">
-			A simple three-step path to JLPT success. No confusion, no guesswork.
+			A simple path to JLPT success. No confusion, no guesswork.
 		</p>
 
 		<div class="steps">
 			<div class="step reveal reveal-delay-1">
 				<div class="step-number">1</div>
-				<div class="step-icon">📚</div>
-				<h3>Study</h3>
-				<p>Learn new kanji, vocabulary, and grammar with clear, structured lessons tailored to your JLPT level.</p>
+				<div class="step-icon">🎯</div>
+				<h3>Choose Your Level</h3>
+				<p>Pick your target JLPT level — N5 through N1. Every app is organized by level so you study exactly what you need.</p>
 			</div>
 
 			<div class="step-connector reveal reveal-delay-2">
@@ -21,9 +21,9 @@
 
 			<div class="step reveal reveal-delay-2">
 				<div class="step-number">2</div>
-				<div class="step-icon">🎯</div>
-				<h3>Practice</h3>
-				<p>Reinforce your knowledge with SRS flashcards, quizzes, and full-length simulated exams with explanations.</p>
+				<div class="step-icon">📱</div>
+				<h3>Download the Apps</h3>
+				<p>Get the apps you need from the App Store. Each one focuses on a key skill: kanji, vocabulary, grammar, reading, or practice exams.</p>
 			</div>
 
 			<div class="step-connector reveal reveal-delay-3">
@@ -35,8 +35,8 @@
 			<div class="step reveal reveal-delay-3">
 				<div class="step-number">3</div>
 				<div class="step-icon">🏆</div>
-				<h3>Pass</h3>
-				<p>Walk into your JLPT exam with confidence. Our learners have a 92% pass rate across all levels.</p>
+				<h3>Pass the JLPT</h3>
+				<p>Study with proven methods — SRS, practice quizzes, and full-length exams. Walk into your test with confidence.</p>
 			</div>
 		</div>
 	</div>

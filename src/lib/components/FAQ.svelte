@@ -5,28 +5,28 @@
 			answer: 'The Japanese Language Proficiency Test (JLPT) is the most widely recognized test of Japanese language ability for non-native speakers. It has five levels: N5 (easiest) to N1 (most advanced). The test is held twice a year in July and December at locations worldwide.'
 		},
 		{
-			question: 'How does the spaced repetition system work?',
-			answer: 'Our SRS algorithm tracks how well you know each item and schedules reviews at the optimal interval. When you get something right, the interval increases. When you get it wrong, you see it again sooner. This scientifically-proven method ensures maximum retention with minimum study time.'
+			question: 'What apps are available?',
+			answer: 'We offer five specialized iOS apps: JLPT Practice Exams (100 full-length exams), JLPT Kanji Master (SRS-based kanji learning), JLPT Vocabulary (comprehensive vocab builder), JLPT Grammar (complete grammar reference), and JLPT Reading Practice (reading comprehension). Each app covers all JLPT levels from N5 to N1.'
 		},
 		{
-			question: 'Can I use JLPT Studio offline?',
-			answer: 'Yes! Annual and Lifetime members can download lessons and flashcard decks for offline study. Perfect for studying on your commute or anywhere without internet access. Your progress syncs automatically when you reconnect.'
+			question: 'How much do the apps cost?',
+			answer: 'Each app is $100/year, but for a limited time all apps are half price at $50/year each. The JLPT Practice Exams app includes 100 full-length exams — that\'s only $1 per exam. The discounted subscriptions are limited in supply and will return to full price once they sell out.'
+		},
+		{
+			question: 'Do the apps work offline?',
+			answer: 'Yes! All apps are native iOS apps, so they work fully offline. Study on your commute, on a plane, or anywhere — no internet connection required.'
 		},
 		{
 			question: 'How long does it take to pass each JLPT level?',
 			answer: 'It varies by person, but typical timelines with consistent daily study (30–60 minutes) are: N5 in 2–3 months, N4 in 4–6 months, N3 in 8–12 months, N2 in 12–18 months, and N1 in 18–24+ months. Our SRS system is designed to make your study time as efficient as possible.'
 		},
 		{
-			question: 'Is there a free trial?',
-			answer: 'Absolutely! Every plan includes a 7-day free trial with full access to all features. You can explore lessons, try the SRS system, and take practice tests before committing. No credit card required to start.'
-		},
-		{
 			question: 'What makes JLPT Studio different from other apps?',
-			answer: 'JLPT Studio is built specifically for the JLPT, unlike general Japanese learning apps. Every piece of content is mapped to the official test specifications. Our simulated exams mirror the real test format, and our SRS is tuned for JLPT-specific vocabulary and kanji frequency.'
+			answer: 'JLPT Studio apps are built specifically for the JLPT, unlike general Japanese learning apps. Every piece of content is mapped to the official test specifications. Our practice exams mirror the real test format, and our SRS is tuned for JLPT-specific vocabulary and kanji frequency. Each app is focused on one skill so you get depth, not surface-level coverage.'
 		},
 		{
-			question: 'Can I switch plans later?',
-			answer: 'Yes, you can upgrade or downgrade your plan at any time. If you upgrade, you\'ll receive a prorated credit for the remainder of your current plan. Downgrades take effect at the end of your current billing period.'
+			question: 'Do I need all five apps?',
+			answer: 'Not necessarily! Each app is standalone — pick the ones that match your study needs. If you want full JLPT coverage, all five apps together form a comprehensive preparation system. Many students start with JLPT Practice Exams to identify weak areas, then add the other apps as needed.'
 		}
 	];
 

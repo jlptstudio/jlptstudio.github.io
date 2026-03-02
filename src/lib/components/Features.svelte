@@ -1,44 +1,44 @@
 <script lang="ts">
 	const features = [
 		{
-			icon: '🎯',
-			title: 'All JLPT Levels',
-			description: 'Comprehensive coverage from N5 beginner to N1 advanced. Every level, every skill, fully mapped to the official exam.',
+			icon: '📝',
+			title: 'JLPT Practice Exams',
+			description: '100 realistic full-length exams, auto-graded with detailed answer explanations. Only $1 per exam — invaluable preparation for all levels.',
 			color: 'var(--lavender-100)',
 			accent: 'var(--lavender-400)'
 		},
 		{
 			icon: '漢',
-			title: 'Kanji Mastery',
-			description: 'Learn kanji through memorable mnemonics and animated stroke order. Build lasting visual associations for over 2,000 characters.',
+			title: 'JLPT Kanji Master',
+			description: 'SRS-based kanji learning designed specifically for each JLPT level. Covers all necessary kanji with practice quizzes to reinforce retention.',
 			color: 'var(--peach-100)',
 			accent: 'var(--peach-400)'
 		},
 		{
 			icon: '📖',
-			title: 'Vocabulary Builder',
-			description: 'Master words in context with native example sentences, pitch accent guides, and real-world usage patterns.',
+			title: 'JLPT Vocabulary',
+			description: 'Comprehensive vocabulary builder organized by JLPT level. SRS-powered reviews and practice quizzes to master every word you need.',
 			color: 'var(--mint-100)',
 			accent: 'var(--mint-400)'
 		},
 		{
 			icon: '✏️',
-			title: 'Grammar Guide',
-			description: 'Crystal-clear grammar explanations with interactive practice exercises. From basic particles to advanced patterns.',
+			title: 'JLPT Grammar',
+			description: 'Complete grammar reference and practice organized by JLPT level. From basic particles to advanced patterns, with exercises for every point.',
 			color: 'var(--sky-100)',
 			accent: 'var(--lavender-400)'
 		},
 		{
-			icon: '📝',
-			title: 'Simulated Exams',
-			description: 'Realistic JLPT-style practice tests with detailed answer explanations. Know exactly where you stand before exam day.',
+			icon: '📚',
+			title: 'JLPT Reading Practice',
+			description: 'Reading comprehension practice with passages at each JLPT level. Build the speed and accuracy you need for test day.',
 			color: 'var(--lavender-100)',
 			accent: 'var(--lavender-500)'
 		},
 		{
-			icon: '🧠',
-			title: 'Spaced Repetition',
-			description: 'Our SRS algorithm schedules reviews at the optimal moment. Scientifically proven to maximize long-term retention.',
+			icon: '📱',
+			title: 'Designed for iOS',
+			description: 'Native iOS apps built for a seamless study experience. Beautiful design, fast performance, and study anywhere — no internet required.',
 			color: 'var(--peach-100)',
 			accent: 'var(--coral-400)'
 		}
@@ -47,9 +47,9 @@
 
 <section class="features" id="features">
 	<div class="container">
-		<h2 class="section-title reveal">Everything You Need to Pass</h2>
+		<h2 class="section-title reveal" id="apps">Everything You Need to Pass</h2>
 		<p class="section-subtitle reveal reveal-delay-1">
-			A complete toolkit designed specifically for JLPT success. Every feature built with one goal: helping you pass.
+			Five specialized iOS apps that work together as a complete JLPT preparation system. Each app focused on one skill, all designed by JLPT experts.
 		</p>
 
 		<div class="features-grid">

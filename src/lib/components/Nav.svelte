@@ -5,7 +5,7 @@
 	let mobileOpen = $state(false);
 
 	const links = [
-		{ href: '#features', label: 'Features' },
+		{ href: '#apps', label: 'Apps' },
 		{ href: '#how-it-works', label: 'How It Works' },
 		{ href: '#levels', label: 'Levels' },
 		{ href: '#testimonials', label: 'Testimonials' },
@@ -37,7 +37,7 @@
 			{#each links as link}
 				<a href={link.href} onclick={closeMobile}>{link.label}</a>
 			{/each}
-			<a href="#pricing" class="btn btn-primary btn-sm" onclick={closeMobile}>Get Started</a>
+			<a href="#" class="btn btn-primary btn-sm" onclick={closeMobile}>Download Apps</a>
 		</div>
 
 		<button

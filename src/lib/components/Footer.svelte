@@ -2,9 +2,9 @@
 	<div class="container">
 		<div class="cta-box reveal">
 			<h2>Ready to Master the JLPT?</h2>
-			<p>Join 50,000+ learners and start your journey to fluency today. Free for 7 days.</p>
-			<a href="#pricing" class="btn btn-primary btn-lg">
-				Start Learning Free
+			<p>Download our apps and start your journey to fluency today.</p>
+			<a href="#" class="btn btn-primary btn-lg">
+				Download on App Store
 				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 			</a>
 		</div>
@@ -19,7 +19,7 @@
 					<span class="logo-icon">学</span>
 					<span>JLPT Studio</span>
 				</a>
-				<p>The smart way to prepare for the JLPT. From N5 to N1, we've got you covered.</p>
+				<p>Five specialized iOS apps for JLPT preparation. From N5 to N1, we've got you covered.</p>
 				<div class="social-links">
 					<a href="#!" aria-label="Twitter">
 						<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
@@ -34,19 +34,20 @@
 			</div>
 
 			<div class="footer-col">
-				<h4>Product</h4>
-				<a href="#features">Features</a>
-				<a href="#pricing">Pricing</a>
-				<a href="#levels">JLPT Levels</a>
-				<a href="#faq">FAQ</a>
+				<h4>Apps</h4>
+				<a href="#">JLPT Practice Exams</a>
+				<a href="#">JLPT Kanji Master</a>
+				<a href="#">JLPT Vocabulary</a>
+				<a href="#">JLPT Grammar</a>
+				<a href="#">JLPT Reading Practice</a>
 			</div>
 
 			<div class="footer-col">
 				<h4>Resources</h4>
-				<a href="#!">Blog</a>
-				<a href="#!">Study Guides</a>
-				<a href="#!">JLPT Calendar</a>
-				<a href="#!">Community</a>
+				<a href="#levels">JLPT Levels</a>
+				<a href="#pricing">Pricing</a>
+				<a href="#faq">FAQ</a>
+				<a href="#contact">Contact</a>
 			</div>
 
 			<div class="footer-col">
@@ -59,7 +60,7 @@
 		</div>
 
 		<div class="footer-bottom">
-			<p>&copy; 2025 JLPT Studio. All rights reserved.</p>
+			<p>&copy; 2026 JLPT Studio. All rights reserved.</p>
 		</div>
 	</div>
 </footer>
